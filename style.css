@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.randomText{
+    text-align: center;
+}
+
+#text{
+    margin: 40px;
+    font-size: 50px;
+    font-weight: bold;
+    color: teal;
+}
+
+.answer{
+    margin: 20px;
+}
+
+#equation{
+    font-size: 20px;
+    color: tomato;
+    font-weight: bold; 
+}
+
+#result{
+    font-size: 45px;
+    color: tomato;
+    font-weight: bold;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number{
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  margin: 3px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.keypress{
+    background-color: tomato;
+    color: white;
+    transform: scale(1.1);
+}
+
+#gameStatus{
+    margin: 20px;
+    font-size: 25px;
+    color: brown;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    border-radius: 12px;
+    background-color: aquamarine;
+    border-style: none;
+    font-size: 18px;
+}
